@@ -2,7 +2,7 @@
 	height: 500px;
 	width: 200px;
 	border: 1px solid black;
-	padding: 1px;
+	padding: 3px;
 	
 }
 
@@ -17,17 +17,33 @@ h1 {
 }
 
 p {
-	font-size: 80%
-}
-
-ul {
-	list-style: none;
-	flex-flow: column;
-	justify-content: space-between
+	font-size: 80%;
 }
 
 .c2 {
 	display: flex;
-	
-	
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid black;
+	margin-bottom: 0px;	
+}
+.c2 > p{
+	font-size: 50%;
+	margin: 0px;
+}
+#cal {
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#cal>div>p{
+	margin:0px;
+	font-size: 50%;
+}
+#cal>div{
+	display: flex;
+	justify-content: space-between;
+}
+#cal2{
+	border-top: 1px solid grey;
 }
