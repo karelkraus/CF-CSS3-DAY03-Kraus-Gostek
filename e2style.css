@@ -2,7 +2,7 @@
 	height: 500px;
 	width: 200px;
 	border: 1px solid black;
-	padding: 1px;
+	padding: 3px;
 	
 }
 
@@ -22,6 +22,7 @@ p {
 
 .c2 > p {
 	font-size: 50%
+
 }
 
 .c2 {
@@ -29,6 +30,7 @@ p {
 	justify-content: space-between;
 	align-items: flex-end;
 	border-bottom: 1px solid black;
+
 	
 }
 
@@ -44,4 +46,53 @@ p {
 }
 
 
+
+.c2 > p{
+	font-size: 50%;
+	margin: 0px;
+}
+#cal {
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#cal>div>p{
+	margin:0px;
+	font-size: 50%;
+}
+#cal>div{
+	display: flex;
+	justify-content: space-between;
+}
+#cal2{
+	border-top: 1px solid grey;
+
+}
+
+
+.DV {
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid black;
+	margin: 0px
+}
+
+.DV > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 50%;
+}
+
+.fat {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0px;
+}
+
+.fat > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 50%;
+}
 
