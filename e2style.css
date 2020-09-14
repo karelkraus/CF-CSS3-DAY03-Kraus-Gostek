@@ -12,22 +12,36 @@
 
 }
 
-h1 {
-	font-size: 90%;
+.c1 > h1 {
+	font-size: 100%;
 }
 
 p {
 	font-size: 80%
 }
 
-ul {
-	list-style: none;
-	flex-flow: column;
-	justify-content: space-between
+.c2 > p {
+	font-size: 50%
 }
 
 .c2 {
 	display: flex;
-	
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid black;
 	
 }
+
+.cal {
+	margin: 0px;
+	line-height: 1px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid black;
+	font-size: 50%
+	
+}
+
+
+
